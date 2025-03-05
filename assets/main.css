@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.game ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.game li {
+    background: #007bff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.game li:hover {
+    background: #0056b3;
+}
+.game a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --- Bot Game -- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightcyan;
+    text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: red;
+    background-color: yellow;
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.box:hover {
+    background-color: chocolate;
+}
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg {
+    font-size: 8vmin;
+}
+.msg-container {
+    height: 30vmin;
+}
+.hide {
+    display: none;
+}
